@@ -5,3 +5,8 @@ API Read Access Token (v4 auth) : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiO
 Example API Request: https://api.themoviedb.org/3/movie/550?api_key=8e0207ceeb7bd70c366c958b3bd0dee6
 
 Boxofficemojo.com
+everything you need: https://github.com/earthican/BoxOfficeMojoAPI
+
+IMDB
+
+
