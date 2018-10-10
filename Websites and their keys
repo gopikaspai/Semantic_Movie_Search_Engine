@@ -1,0 +1,7 @@
+MovieDB
+url: https://developers.themoviedb.org
+API Key (v3 auth) : 8e0207ceeb7bd70c366c958b3bd0dee6
+API Read Access Token (v4 auth) : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4ZTAyMDdjZWViN2JkNzBjMzY2Yzk1OGIzYmQwZGVlNiIsInN1YiI6IjViYmQ2MDczYzNhMzY4NTkwMTAyMmJmZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.eUjMtXZ_l2blehjE7ltYfrQSzT95Z6WjCH5zdNTqU30
+Example API Request: https://api.themoviedb.org/3/movie/550?api_key=8e0207ceeb7bd70c366c958b3bd0dee6
+
+Boxofficemojo.com
