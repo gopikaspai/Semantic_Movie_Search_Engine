@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1541580445180" name="http://www.semanticweb.org/drishty/ontologies/2018/10/untitled-ontology-24" uri="MovieActors.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1541580445180" name="http://www.semanticweb.org/drishty/ontologies/2018/10/untitled-ontology-27" uri="MovieDirectors.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1541580445180" name="http://www.semanticweb.org/drishty/ontologies/2018/10/untitled-ontology-28" uri="MovieDuration.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1541580445180" name="http://www.semanticweb.org/drishty/ontologies/2018/10/untitled-ontology-29" uri="MovieGross.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1541580445180" name="http://www.semanticweb.org/drishty/ontologies/2018/10/untitled-ontology-30" uri="MovieGenre.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1541580445180" name="http://www.semanticweb.org/drishty/ontologies/2018/10/untitled-ontology-31" uri="MovieIMDBurl.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1541580445180" name="http://www.semanticweb.org/drishty/ontologies/2018/10/untitled-ontology-32" uri="MovieCountry.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1541580445180" name="http://www.semanticweb.org/drishty/ontologies/2018/10/untitled-ontology-33" uri="MovieBudget.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1541580445180" name="http://www.semanticweb.org/drishty/ontologies/2018/10/untitled-ontology-34" uri="MovieYear.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1541580445180" name="http://www.semanticweb.org/drishty/ontologies/2018/10/untitled-ontology-36" uri="MovieRating.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1541580445180" name="http://www.semanticweb.org/gopik/ontologies/2018/10/untitled-ontology-38" uri="Merged.owl"/>
+    </group>
+</catalog>
