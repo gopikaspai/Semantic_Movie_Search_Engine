@@ -1,0 +1,102 @@
+<html>
+  <head>
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="colorlib.com">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <div class="s01">
+      <form>
+        <fieldset>
+          <legend>Movie Search Engine</legend>
+        </fieldset>
+        <div class="inner-form">
+          <div class="input-field first-wrap">
+            <input type="text" name="movie" id="movie" value="o1:">
+        <!--     <input id="search" type="text" placeholder="Enter a movie name?" /> -->
+          </div>
+          <div class="input-field third-wrap">
+            <button type="button" onclick="loadDoc()" style="color: #fff">Search</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+      <div id="abc" style="background-color: #fff; float: left;">
+        <p id="Actor" ></p>
+        <p id="Year" ></p>
+      </div>
+
+<div>
+
+ <script type="text/javascript">
+  function showImage(){
+        document.getElementById('loadingImage').style.visibility="visible";
+    }
+
+
+ </script>
+
+    <input type="button" value="Show Countries" onclick="showImage();"/>
+    <img id="loadingImage" src="map.png" style="visibility:hidden"/>
+
+<script type="text/javascript">
+
+  function showImage1(){
+        document.getElementById('Imageloaded').style.visibility="visible";
+    }
+
+
+ </script>
+
+        <input type="button" value="Compare Budget" onclick="showImage1();"/>
+    <img id="Imageloaded" src="budget.png" style="visibility:hidden"/>
+
+</div>
+
+
+
+
+
+
+
+
+    <script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+
+  var x = document.getElementById("movie").value;
+    
+
+    url = 'http://localhost:9090/getQuery1/' + x;
+
+    //document.getElementById("demo").innerHTML = url;
+
+  
+  xhttp.open("GET", url, true);
+  xhttp.send();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     console.log(this.responseText);
+     obj = JSON.parse(this.responseText);
+     actor=obj.results.bindings[0].ActorName.value.split('#')[1]
+     
+     year=obj.results.bindings[0].Year.value.split('#')[1]
+     
+
+     document.getElementById("Actor").innerHTML = actor
+     document.getElementById("Year").innerHTML = year
+
+
+
+    }
+  };}
+</script>
+  </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
